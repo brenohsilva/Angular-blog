@@ -1,7 +1,8 @@
 .container__small-card {
-    border: 1px solid white;
-    width: 800px;
-    margin-bottom: 20px;
+    width: 700px;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI';
+    font-size: 12px;
 }
 
 .container__small-card-content {
@@ -10,8 +11,9 @@
 }
 
 .small-card__photo > img {
-    width: 300px;
-    margin-right: 15px;
+    width: 250px;
+
+    margin-right: 20px;
 }
 
 .small-card__tittle {

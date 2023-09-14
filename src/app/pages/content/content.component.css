@@ -1,0 +1,47 @@
+.container__content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI';
+}
+
+.content__cover img {
+    width: 700px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.content__description {
+     margin-top: 10px;
+     display: flex;
+     flex-direction: column;
+     width: 70%;
+}
+
+
+.content__description > span {
+    color: rgb(165, 164, 164);
+    margin-bottom: 10px;
+}
+
+.content__description > p {
+    margin-bottom: 20px;
+}
+
+.content__title {
+    width: 70%;
+
+}
+.content__back-button > a {
+    border-radius: 10px;
+    width: 140px;
+    height: 30px;
+    padding: 10px;
+    background: rgb(226, 132, 8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}

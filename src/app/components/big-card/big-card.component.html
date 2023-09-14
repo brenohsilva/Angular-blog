@@ -1,18 +1,16 @@
 <div class="container__big-card">
     <div class="big-card__photo">
         <img 
-        src="https://www.clickpb.com.br/media/filer_public_thumbnails/filer_public/b5/06/b506fd0d-249d-4254-8172-b8fb3177d38b/sport.jpg__1200x630_q85_crop-smart_subsampling-2_upscale.jpg" 
-        
+        src="{{photocover}}" 
         alt=""
         >
     </div>
     <div class="big-card__tittle">
-        <h1> <a href="#">87 DE FATO E DE DIREITO </a></h1>
+        <h1> <a [routerLink]="['content', Id]">{{cardTitle}} </a></h1>
     </div>
     <div class="big-card__description">
-        <a href="">
-            <p>Depois de mais de 30 anos Sport Recife é consagrado campeão brasileiro de 1987
-            Depois de longas brigas judiciais, por determinação do STF, time de Recife é consagrado campeão do torneio</p>
+        <a  [routerLink]="['content', Id]">
+            <p>{{cardDescription}}</p>
         </a>
     </div>
 </div>
